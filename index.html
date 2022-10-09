@@ -8,6 +8,7 @@
     <meta name="description"
         content="Scooters de alta precisão e qualidade, feitas sob medida para o cliente. Explore o mundo na sua velocidade com a ScooterLife">
 
+    <link rel="preload" href="./css/style.css" as="style">
     <link rel="stylesheet" href="./css/style.css">
 
     <!-- Fontes -->
@@ -22,7 +23,7 @@
     <header class="header-bg">
         <div class="header container">
             <a href="./">
-                <img src="./img/scooterLife.svg" alt="ScooterLife">
+                <img src="./img/scooterLife.svg" width="216" height="32" alt="ScooterLife">
             </a>
             <nav aria-label="primaria">
                 <ul class="header-menu font-1-m cor-0">
@@ -43,9 +44,10 @@
                     velocidade com a ScooterLife.</p>
                 <a class="botao" href="./scooters.html">Escolha a sua</a>
             </div>
-            <div>
-                <img src="./img/fotos/introducao.jpg" alt="Scooter elétrica">
-            </div>
+            <picture>
+                <source media="(max-width: 800px)" srcset="./img/scooters/nebula.jpg">
+                <img src="./img/fotos/introducao.jpg" width="640" height="800" alt="Scooter elétrica">
+            </picture>
         </div>
     </main>
 
@@ -54,21 +56,21 @@
         <ul>
             <li>
                 <a href="/scooters/magic.html">
-                    <img src="./img/scooters/magic-home.jpg" alt="Scooter Magic">
+                    <img src="./img/scooters/magic-home.jpg" width="460" height="520" alt="Scooter Magic">
                     <h3 class="font-1-xl">Magic Might</h3>
                     <span class="font-2-m cor-8">R$ 2499</span>
                 </a>
             </li>
             <li>
                 <a href="/scooters/nimbus.html">
-                    <img src="./img/scooters/nimbus-home.jpg" alt="Scooter Nimbus">
+                    <img src="./img/scooters/nimbus-home.jpg" width="460" height="520" alt="Scooter Nimbus">
                     <h3 class="font-1-xl">Nimbus Stark</h3>
                     <span class="font-2-m cor-8">R$ 4999</span>
                 </a>
             </li>
             <li>
                 <a href="/scooters/nebula.html">
-                    <img src="./img/scooters/nebula-home.jpg" alt="Scooter Nebula">
+                    <img src="./img/scooters/nebula-home.jpg" width="460" height="520" alt="Scooter Nebula">
                     <h3 class="font-1-xl">Nebula Cosmic</h3>
                     <span class="font-2-m cor-8">R$ 5999</span>
                 </a>
@@ -89,7 +91,7 @@
                 <a class="link" href="./scooters.html"> Escolha um modelo</a>
                 <div class="tecnologia-vantagens">
                     <div>
-                        <img src="./img/icones/eletrica.svg" alt="">
+                        <img src="./img/icones/eletrica.svg" width="24" height="24" alt="">
                         <h3 class="font-1-m cor-0">Motor Elétrico</h3>
                         <p class="font-2-s cor-5">Toda ScooterLife é equipada com um motor elétrico que possui duração
                             de
@@ -98,7 +100,7 @@
                             recarregada com a sua energia gasta ao pedalar.</p>
                     </div>
                     <div>
-                        <img src="./img/icones/rastreador.svg" alt="">
+                        <img src="./img/icones/rastreador.svg" width="24" height="24" alt="">
                         <h3 class="font-1-m cor-0">Rastreador</h3>
                         <p class="font-2-s cor-5">Sabemos o quão preciosa é a sua ScooterLife, por isso adicionamos
                             rastreadores e sistemas anti-furto
@@ -107,7 +109,7 @@
                 </div>
             </div>
             <div class="tecnologia-imagem">
-                <img src="./img/fotos/tecnologia.jpg" alt="">
+                <img src="./img/fotos/tecnologia.jpg" width="700" height="1120" alt="">
             </div>
         </div>
     </article>
@@ -115,20 +117,20 @@
     <section class="parceiros" aria-label="Nossos parceiros">
         <h2 class="container font-1-xxl">nossos parceiros<span class="cor-p1">.</span></h2>
         <ul class="parceiros-lista">
-            <li><img src="./img/parceiros/caravan.svg" alt="Caravan"></li>
-            <li><img src="./img/parceiros/dogs.svg" alt="Dogs"></li>
-            <li><img src="./img/parceiros/flexblog.svg" alt="Flexblog"></li>
-            <li><img src="./img/parceiros/handel.svg" alt="Handel"></li>
-            <li><img src="./img/parceiros/lescone.svg" alt="Lescone"></li>
-            <li><img src="./img/parceiros/ranek.svg" alt="Ranek"></li>
-            <li><img src="./img/parceiros/surfbot.svg" alt="Surfbot"></li>
-            <li><img src="./img/parceiros/wildbeast.svg" alt="Wildbeast"></li>
+            <li><img src="./img/parceiros/caravan.svg" width="140" height="38" alt="Caravan"></li>
+            <li><img src="./img/parceiros/dogs.svg" width="152" height="39" alt="Dogs"></li>
+            <li><img src="./img/parceiros/flexblog.svg" width="165" height="38" alt="Flexblog"></li>
+            <li><img src="./img/parceiros/handel.svg" width="139" height="50" alt="Handel"></li>
+            <li><img src="./img/parceiros/lescone.svg" width="208" height="41" alt="Lescone"></li>
+            <li><img src="./img/parceiros/ranek.svg" width="149" height="36" alt="Ranek"></li>
+            <li><img src="./img/parceiros/surfbot.svg" width="200" height="49" alt="Surfbot"></li>
+            <li><img src="./img/parceiros/wildbeast.svg" width="196" height="34" alt="Wildbeast"></li>
         </ul>
     </section>
 
     <section class="depoimento" aria-label="Depoimento">
         <div>
-            <img src="./img/fotos/depoimento.jpg" alt="Pessoa com sua scooter">
+            <img src="./img/fotos/depoimento.jpg" width="4104" height="2736" alt="Pessoa com sua scooter">
         </div>
         <div class="depoimento-conteudo">
             <blockquote class="font-1-xl cor-p5">
@@ -173,7 +175,7 @@
 
     <footer class="footer-bg">
         <div class="footer container">
-            <img src="./img/scooterLife.svg" alt="Logo ScooterLife">
+            <img src="./img/scooterLife.svg" width="216" height="32" alt="Logo ScooterLife">
             <div class="footer-contato">
                 <h3 class="font-2-l-b cor-0">Contato</h3>
                 <ul class="font-2-m cor-5">
@@ -184,13 +186,13 @@
                 </ul>
                 <div class="footer-redes">
                     <a href="./">
-                        <img src="./img/redes/facebook.svg" alt="facebook">
+                        <img src="./img/redes/facebook.svg" width="24" height="24" alt="facebook">
                     </a>
                     <a href="./">
-                        <img src="./img/redes/instagram.svg" alt="instagram">
+                        <img src="./img/redes/instagram.svg" width="24" height="24" alt="instagram">
                     </a>
                     <a href="./">
-                        <img src="./img/redes/youtube.svg" alt="youtube">
+                        <img src="./img/redes/youtube.svg" width="24" height="24" alt="youtube">
                     </a>
                 </div>
             </div>
